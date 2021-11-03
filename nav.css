@@ -49,7 +49,7 @@
      .mini-li:hover {
       background: #222222;
     }
-    nav ul li:hover > div.dropdown,
+
     nav ul li:focus-within > div.dropdown {
         left: 50%;
         opacity: 1;
