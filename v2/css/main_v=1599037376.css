@@ -298,6 +298,10 @@ header {
     z-index: 1;
 }
 
+nav ul {
+    text-align: right !important;
+}
+
 .nav {
     display: flex;
     position: relative;
