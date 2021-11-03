@@ -9,8 +9,8 @@
   box-sizing: border-box; }
 
 html {
-  background-color: #fff !important;
-  color: #0c0c0c; }
+  background-color: #343434 !important;
+  color: #fff; }
 
 html {
   font-size: calc(100vw / 1920 * 10);
