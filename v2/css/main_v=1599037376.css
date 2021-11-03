@@ -308,6 +308,7 @@ header {
     opacity: 1;
     transition: transform var(--transition-timing) ease , opacity var(--transition-timing) ease ;
     will-change: opacity, transform;
+    margin-top: 0 !important;
 }
 
 .transition-in .nav{
