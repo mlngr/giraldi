@@ -232,8 +232,6 @@ a {
   top: 0;
   width: 100%;
   z-index: 1; 
-  overflow: scroll;
-
 }
 
 .link {
@@ -685,7 +683,7 @@ section.secondpart {
   position: absolute;
   z-index: 100000;
 margin-top: 24px;
-bottom: 20px; }
+ }
           
   nav ul { text-align: center; }         
   nav ul li { 
@@ -731,7 +729,7 @@ bottom: 20px; }
   nav ul li:focus-within > div.dropdown {
       left: 50%;
       opacity: 1;
-      transform: translateX(-50%) translateY(-110%);
+      transform: translateX(-50%);
       visibility: visible;
   }
   nav ul li > div.dropdown ul {
