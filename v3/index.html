@@ -2,16 +2,29 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Agence Giraldi V3</title>
+  <title>V3 - Agence Giraldi</title>
   <link rel="stylesheet" href="./style.css">
   <link href="../nav.css" rel="stylesheet">
   <link href="../main.css" rel="stylesheet">
 </head>
 
+<style>
+        html {
+        cursor: default;
+    }
+
+    html::after {
+        display: none;
+    }
+
+</style>
+
 <header>
     <div class="frame">
         <div class="frame__title-wrap">
+            <a href="./index.html" >
           <img class="logo" src="../images/demo-1/logo-white.png" alt="">
+        </a>
         </div>
 
         <nav>
@@ -21,14 +34,14 @@
   
                       <ul class="mini">
                           <li class="mini-li">
-                              <a href="../index.html">
+                              <a target="_blank" href="../index.html">
                                   <h3>Version 1</h3>
                                   <span>- Animation de défilement sur la homepage
                                     <br>- Logo à gauche et menu à droite</span>
                               </a>
                           </li>
                           <li class="mini-li">
-                              <a href="../v2/index.html">
+                              <a target="_blank" href="../v2/index.html">
                                   <h3>Version 2</h3>
                                   <span>- Vidéo sur la homepage
                                     <br>- Page "Réalisations" au format slider vertical
@@ -36,16 +49,16 @@
                                     <br>- Menu sobre (marche très bien au format mobile)</span>
                               </a>
                           </li>
-                          <li class="mini-li">
-                              <a href="../v3/index.html">
+                          <li class="mini-li" style="background-color: darkslategrey;">
+                              <a target="_blank" href="../v3/index.html">
                                   <h3>Version 3</h3>
-                                  <span>- Animation "d'éclatement" sur la page d'accueil (à peaufiner)
+                                  <span style="color: #cdcdcd;">- Animation "d'éclatement" sur la page d'accueil (à peaufiner)
                                     <br>- Page "Réalisations" au format slider horizontal</span>
                               </a>
                           </li>
 
                           <li class="mini-li">
-                            <a href="../v4/index.html">
+                            <a target="_blank" href="../v4/index.html">
                                 <h3>Version 4</h3>
                                 <span>- Page d'accueil avec visuel statique et présentation de Monaco au scroll</span>
                             </a>
