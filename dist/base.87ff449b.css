@@ -2,7 +2,6 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-	pointer-events: none;
 
 }
 
@@ -16,7 +15,6 @@ main {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	pointer-events: none;
 
 }
 
