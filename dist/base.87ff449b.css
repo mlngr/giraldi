@@ -3,6 +3,8 @@
 *::before {
 	box-sizing: border-box;
 	cursor: none;
+	pointer-events: none;
+
 }
 
 :root {
@@ -16,6 +18,8 @@ main {
 	width: 100%;
 	position: relative;
 	cursor: none;
+	pointer-events: none;
+
 }
 
 body {
@@ -99,7 +103,6 @@ a.grid__item:hover {
 	margin: -30px 0 0 -30px;
 	border-radius: 50%;
 	opacity: 0.4;
-	background: var(--color-link);
 	animation: loaderAnim 0.7s linear infinite alternate forwards;
 
 }
