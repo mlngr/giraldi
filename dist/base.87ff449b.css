@@ -3,7 +3,6 @@
 *::before {
 	box-sizing: border-box;
 	cursor: none;
-	pointer-events: none;
 
 }
 
@@ -18,8 +17,6 @@ main {
 	width: 100%;
 	position: relative;
 	cursor: none;
-	pointer-events: none;
-
 }
 
 body {
@@ -201,7 +198,6 @@ a.grid__item:hover {
 	height: 100%;
 	background-size: cover;
 	background-position: 50% 50%;
-	border-radius: 10px;
 	will-change: transform;
 }
 
