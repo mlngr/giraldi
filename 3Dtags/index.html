@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TagCanvas example</title>
+    <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+    <script src="./tagcanvas.min.js" type="text/javascript"></script>
+    <style src="./main.css"></style>
+    <script type="text/javascript">
+      window.onload = function() {
+        try {
+          TagCanvas.Start('myCanvas','tags',{
+            reverse: true,
+            depth: 1,
+            maxSpeed: 0.01
+          });
+        } catch(e) {
+          // something went wrong, hide the canvas container
+          document.getElementById('myCanvasContainer').style.display = 'none';
+        }
+      };
+    </script>
+  </head>
+  <body style="margin:0">
+    <div id="myCanvasContainer">
+      <canvas width="1000" height="1000" id="myCanvas" style="background:#343434;">
+        <p>Anything in here will be replaced on browsers that support the canvas element</p>
+      </canvas>
+    </div>
+    <div id="tags">
+      <ul>
+        <li><a href="/air/"><img class="grid__item" height="400px" width="300px" src="./1-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="400px" width="300px" src="./1-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="400px" width="300px" src="./1-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="400px" width="300px" src="./1-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="400px" width="300px" src="./1-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./2-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./4-min.jpg"></a></li>
+        <li><a href="/air/"><img class="grid__item" height="100px" width="100px" src="./3-min.jpg"></a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<script>
+    var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+window.addEventListener('resize', resizeCanvas, false);
+function resizeCanvas()
+{					
+if(window.orientation !== undefined)// if mobile
+		{
+			canvas.width = document.documentElement.clientWidth;
+			canvas.height = document.documentElement.clientHeight;
+		}
+		else
+		{ // if pc
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+		}	
+ctx.fillText(window.innerWidth+'x'+window.innerHeight,window.innerWidth/2, window.innerHeight/2);
+}
+resizeCanvas();
+</script>
