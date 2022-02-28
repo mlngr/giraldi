@@ -1,0 +1,35 @@
+Title: Tour Odéon
+
+----
+
+Cover:
+
+- tour-odeon-min-min.png
+
+----
+
+Headline: 
+
+----
+
+Subheadline: De novembre 2009 à Septembre 2015
+
+----
+
+Keyvalue: 10 000 tonnes d'acier utilisé
+
+----
+
+Text: <p><em>La tour Odéon marque le retour de la construction de grande hauteur au sein de la principauté. C’est un double gratte-ciel destiné à un usage commercial, professionnel et résidentiel.&nbsp;L’édifice comprend 2&nbsp;ailes de 44 et 49&nbsp;étages, posées sur un socle commun, au-dessus de 10&nbsp;niveaux de parking</em>&nbsp;et&nbsp;<em>représente pour l’heure,&nbsp;la tour&nbsp;la plus haute du rocher</em>&nbsp;<em>puisqu’elle culmine à plus de 170&nbsp;mètres.</em>&nbsp;<em>La tour s’est fait connaître par&nbsp;ses finitions des plus hauts de gamme&nbsp;puisqu’elle abrite l’appartement le plus cher du monde au moment de sa commercialisation, un penthouse de 3&nbsp;300&nbsp;m2.</em></p><p></p><p>Le prince Rainier&nbsp;III avait décidé dans les années&nbsp;1980 de mettre un terme à la construction d’immeubles de grande hauteur à Monaco. Mais la principauté ne pouvant s’étendre indéfiniment, le prince Albert&nbsp;II décida en&nbsp;2009 de développer la ville verticalement. La tour Odéon, s’inscrit dans cette logique.<br>Au regard de son étroite superficie (2&nbsp;km2) , bâtir à Monaco constitue un challenge de taille. Son emplacement, à flanc de montagne, exige de cet ouvrage la maîtrise de nombreuses techniques de génie civil. Son emprise au sol restreinte a nécessité de nombreux calculs de fondations.</p>
+
+----
+
+Tags: 
+
+----
+
+Starters: 
+
+----
+
+Key-value: 10 000 tonnes d'acier utilisé

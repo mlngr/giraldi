@@ -1,0 +1,25 @@
+Title: L'agence
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"web","image":["team.jpg"],"src":"https:\/\/images.unsplash.com\/photo-1598350742412-8fe67cd5375b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"9cc0dc78-8430-4d1e-b370-a1289ae2a5b3","isHidden":false,"type":"image"}],"id":"e3d2c956-14da-41de-be81-6e05c9179e9a","width":"1\/1"}],"id":"650d3720-aa52-470f-b5eb-4f646cf310d9"},{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>Notre&nbsp;<a href=\"https:\/\/www.r-housedesign.fr\/bureau-architecte-06.php\" rel=\"noopener noreferrer nofollow\">bureau d'\u00e9tudes<\/a>&nbsp;est dirig\u00e9 par \u00c9douard-Jean Rinaldi, \u00e0 la t\u00eate d\u2019une \u00e9quipe cr\u00e9ative et dynamique, compos\u00e9e d\u2019experts dans chaque domaine. En collaboration avec des architectes DPLG de la C\u00f4te d'Azur, nous vous proposons de r\u00e9aliser vos travaux de construction, de r\u00e9novation ou d\u2019extension dans les d\u00e9lais impartis.<br><br>Nous faisons preuve de professionnalisme et de rigueur dans la r\u00e9alisation de vos travaux de construction ou de r\u00e9novation. Nous faisons en sorte de coordonner nos actions pour la r\u00e9ussite de votre projet. Nous privil\u00e9gions les \u00e9changes et le partage de savoir-faire. Des plans en 3D, vous seront fournis afin de vous aider \u00e0 vous projeter dans votre futur int\u00e9rieur.<br><br>Soucieux de vous satisfaire et de r\u00e9ussir votre projet d\u2019am\u00e9nagement int\u00e9rieur ou ext\u00e9rieur, nous proc\u00e9dons au suivi des travaux et faisons en sorte qu\u2019ils se d\u00e9roulent dans les meilleures conditions.<\/p><p><\/p>"},"id":"94ca1397-3c8b-4eea-b4bb-83103f702053","isHidden":false,"type":"text"}],"id":"294faf57-6205-4106-8f34-2c528cd266cd","width":"1\/2"},{"blocks":[{"content":{"text":"<p>Au sein du bureau d'\u00e9tudes, on trouve une \u00e9quipe compos\u00e9e de professionnels comp\u00e9tents et fiables dans leur domaine de pr\u00e9dilection (architectes partenaires, designer, \u00e9conomistes de la construction etc).<br><br>Pour vous offrir un service de qualit\u00e9, nous travaillons en \u00e9troite collaboration avec des architectes passionn\u00e9s et exp\u00e9riment\u00e9s. Le reste de l\u2019\u00e9quipe est constitu\u00e9 de designers, infographistes, dessinateurs, d\u2019\u00e9conomistes de la construction et de chefs de projets.<br><br>Chaque membre \u0153uvre de concert pour faire de votre projet une totale r\u00e9ussite (construction, r\u00e9novation, permis de construire, conception de plans etc). Professionnalisme, rigueur, qualit\u00e9 et cr\u00e9ativit\u00e9 sont nos ma\u00eetres mots.<\/p><p><\/p>"},"id":"4c3edf69-8a47-473e-be9f-fd8309a9e597","isHidden":false,"type":"text"}],"id":"c8461f23-f364-46c8-a666-0d281e0bdfdb","width":"1\/2"}],"id":"c188f6d6-5e8a-434e-9985-e3e106ea8e2d"}]
+
+----
+
+Address: 24 Avenue de Fontvieille, 98000 Monaco
+
+----
+
+Email: info@architecturegiraldi.com
+
+----
+
+Phone: +377 92 05 76 36
+
+----
+
+Social: 
+
+----
+
+Ograph: agency about

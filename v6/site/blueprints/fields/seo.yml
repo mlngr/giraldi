@@ -1,0 +1,10 @@
+label: SEO
+icon: search
+type: structure
+fields:
+  seoTitle:
+    label: SEO Title
+    type: text
+  seoDescription:
+    label: SEO Description
+    type: text

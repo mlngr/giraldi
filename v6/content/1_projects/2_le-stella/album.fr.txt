@@ -1,0 +1,31 @@
+Title: Le Stella
+
+----
+
+Cover:
+
+- oiseau-bleu-min-min.png
+
+----
+
+Headline: 
+
+----
+
+Subheadline: 
+
+----
+
+Keyvalue: 
+
+----
+
+Text: <p>Le Stella est situé sur une parcelle d’angle bordée d’un jardin d’enfant et d’immeubles de logements, à la naissance de l’îlot délimité par les rues Augustin Vento et Hubert Clerissi.</p><p>Figure de proue du quartier des Agaves, cette situation urbaine offre au projet une grande visibilité. Cet ambitieux programme neuf ose le pari d’une architecture dynamique au centre de la Condamine, quartier historique et commerçant de la Principauté.</p><p>L’opération se déploie sur deux registres très épurés : un socle de verre accueille les espaces professionnels : une école et des bureaux (de l’entresol à R+2) ; un grand voile ondoyant en béton est délicatement posé sur le socle pour les logements (de R+3 à R+12).</p><p>Le projet urbain trouve sa force dans cette dualité abstraite. Le bâtiment, par sa simplicité, son abstraction, n’est pas perçu comme une masse statique mais semble en mouvement. Les courbures et les inflexions de la résille offrent aux passants des perspectives du projet sans cesse changeantes, organiques.</p><p>La façade, spectaculaire, joue avec la lumière pour sublimer l’aspect «<em>sculpture urbaine</em>» du bâtiment, permis par ce grand ruban blanc qui habille la construction, la protège.</p><p>Le Stella génère son propre paysage : les prospects très resserrés avec les propriétés voisines sont à l’origine de la conception du grand voile courbe. Celui-ci abrite d’imposantes loggias qui cachent et filtrent la vue sur les immeubles voisins, très proches, tout en offrant de larges vues sur la mer. Distribué sur 16 niveaux, le projet se divise horizontalement en deux volumes distincts.</p><p></p>
+
+----
+
+Tags: 
+
+----
+
+Starters: 

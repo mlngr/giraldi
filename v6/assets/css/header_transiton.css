@@ -1,0 +1,322 @@
+
+body.transition-out,
+body.transition-in {
+    background-color: #000;
+    z-index: 1000;
+}
+
+.page-transition {
+    content: '';
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    background-color: #000;
+    transition: opacity 10ms ease-in-out;
+    will-change: opacity;
+    pointer-events: none;
+}
+
+.page-transition svg {
+    width: 140px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, 0%, 0px);
+    opacity: 0;
+    transition: transform 250ms ease-in;
+    will-change: transform;
+}
+
+.transition-out .page-transition {
+    transition: opacity 0.1ms ease-out;
+    will-change: opacity;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.transition-in .page-transition {
+    opacity: 1;
+}
+
+.transition-out .page-transition svg {
+    opacity: 1;
+    transform: translate3d(-50%, -50%, 0px);
+}
+
+.transition-in .page-transition svg {
+    opacity: 1;
+    transform: translate3d(-50%, -50%, 0px);
+}
+
+.page-transition rect {
+    y: 61;
+    height: 150%;
+    fill: #fff;
+    transition: y 100ms ease-in-out 10ms;
+    will-change: y;
+}
+
+.transition-out .page-transition rect {
+    y: -100;
+}
+
+.transition-in .page-transition rect {
+    y: 61;
+}
+
+.main {
+    opacity: 1;
+    transition: opacity 100ms ease;
+    will-change: opacity;
+}
+
+.main.state--unload {
+    opacity: 0;
+}
+
+@media screen and (min-width: 650px) {
+    .page-transition svg {
+        width: 220px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .content-wrapper,
+    header {
+        margin: 0 auto;
+    }
+}
+
+
+/* Navigation */
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    text-align: right !important;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--page-padding) 0 0;
+    transform: translate3d(0,0,0);
+    opacity: 1;
+    transition: transform var(--transition-timing) ease , opacity var(--transition-timing) ease ;
+    will-change: opacity, transform;
+    margin-top: 0 !important;
+}
+
+.transition-in .nav{
+    transform: translate3d(0,50px,0);
+    opacity: 0;
+}
+
+.nav__link {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav li:last-child .nav__link {
+    margin-bottom: 0;
+}
+
+.nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: width 300ms ease;
+    will-change: opacity, transform;
+}
+
+.nav__link:hover::after {
+    width: 100%;
+}
+
+.nav__logo {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform-origin: left;
+}
+
+.nav__burger {
+    position: relative;
+    height: 34px;
+}
+
+.nav__burger-inner {
+    position: absolute;
+    right: 0;
+    width: 250px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transform: translate3d(0px, -0.5rem, 0px);
+}
+
+.nav__burger .text-image__trigger::after {
+    background-color: #fff;
+}
+
+.nav .state--open .text-image__trigger:first-child {
+    padding-top: 0.3rem;
+}
+
+@media screen and (min-width: 650px) {
+    .nav__logo {
+        display: block;
+        transform: scale(1) translate3d(-50%,0,0);
+        transition: transform 300ms ease;
+        will-change: transform;
+        top: -50px;
+    }
+
+    .nav__logo:hover {
+        cursor: pointer;
+        transform: scale(1.1) translate3d(-50%,0,0);
+    }
+}
+
+
+/* burger anim Project Detail Text Image */
+
+.text-image {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-column-gap: var(--grid-gap);
+    margin-bottom: 7rem;
+}
+
+.text-image__image {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    margin-bottom: 2rem;
+}
+
+.state--portrait .text-image__image {
+    grid-column-start: 3;
+    grid-column-end: 15;
+}
+
+.text-image__text {
+    grid-column-start: 2;
+    grid-column-end: 16;
+}
+
+.text-image__text-inner {
+    transition: height 500ms ease, opacity 500ms ease;
+    will-change: opacity, height;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.state--open .text-image__text-inner {
+    height: auto;
+}
+
+.state--open .text-image__text-inner {
+    opacity: 1;
+}
+
+.text-image__trigger {
+    display: block;
+    position: relative;
+    padding: 0.3rem 0;
+    transform: translate3d(0, 0.5rem, 0);
+    transition: padding-top 500ms ease, padding-bottom  500ms ease;
+    will-change: padding-top, padding-bottom;
+}
+
+.text-image__trigger:first-child {
+    transform: translate3d(0, 0.5rem, 0);
+}
+
+
+.state--open .text-image__trigger:first-child{
+    padding-bottom: 2.4rem;
+}
+
+.text-image__trigger::after {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 1px;
+    background-color: #000;
+}
+
+
+
+@media screen and (min-width: 650px) {
+    .text-image__image {
+        grid-column-start: 1;
+        grid-column-end: 11;
+        margin-bottom: 0;
+    }
+
+    .state--portrait .text-image__image {
+        grid-column-start: 2;
+        grid-column-end: 9;
+    }
+
+    .state--portrait .text-image__text {
+        grid-column-start: 9;
+        grid-column-end: 16;
+    }
+    
+    .text-image__text {
+        grid-column-start: 11;
+        grid-column-end: 17;
+        direction: ltr;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .state--reverse {
+        direction: rtl;
+    }
+
+    .state--reverse .text-image__text {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text-image {
+        margin-bottom: 13rem;
+    }
+    
+    .text-image__text {
+        grid-column-start: 12;
+        grid-column-end: 16;
+    }
+
+    .state--portrait .text-image__text {
+        grid-column-start: 10;
+        grid-column-end: 14;
+    }
+}
